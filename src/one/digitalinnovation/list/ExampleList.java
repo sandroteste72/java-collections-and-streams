@@ -20,6 +20,15 @@ public class ExampleList {
         names.add("Joao");
         names.add("Socrates");
 
+        List<String> names2 = new ArrayList<>();
+        names2.add("Ismael");
+        names2.add("Rodrigo");
+
+//        Collections.copy(List<String> names, List<String> names2);
+//        System.out.println("=========================");
+//        System.out.println(names);
+//        System.out.println("=========================");
+
         System.out.println(names);
         names.set(9, "Armando");
         Collections.sort(names);
